@@ -84,7 +84,7 @@ end
 group :assets do
   gem 'cssmin', '>= 1.0.2'
   gem 'uglifier', '>= 1.2.2'
-  gem 'sass-rails'
+  gem 'sass-rails', '~> 4.0.3'
   gem 'jquery-datatables-rails'
   gem 'codemirror-rails', '~> 3.13'
   gem 'rails_tokeninput', '>= 1.6.1.rc1'

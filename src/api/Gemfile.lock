@@ -53,7 +53,7 @@ GEM
       safe_yaml (~> 1.0.0)
     cssmin (1.0.3)
     daemons (1.1.9)
-    dalli (2.7.0)
+    dalli (2.7.2)
     database_cleaner (1.2.0)
     delayed_job (4.0.1)
       activesupport (>= 3.0, < 4.2)
@@ -247,7 +247,7 @@ DEPENDENCIES
   rdoc
   redcarpet
   ruby-ldap
-  sass-rails
+  sass-rails (~> 4.0.3)
   simplecov
   sprite-factory (>= 1.5.2)
   thinking-sphinx (> 3.1)
