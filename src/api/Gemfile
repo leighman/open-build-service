@@ -8,7 +8,7 @@ gem 'actionmailer'
 gem 'mysql2'
 
 # activexml require
-gem 'nokogiri', '~>1.6.0'
+gem 'nokogiri', '~>1.6.2.1'
 
 gem 'tilt', '>= 1.4.1'
 
@@ -61,7 +61,7 @@ group :test do
   # freeze time
   gem 'timecop'
   # to fake backend replies
-  gem 'webmock', '>= 1.9.0'
+  gem 'webmock', '>= 1.18.0'
   # for code quality checks
   gem 'flog', '> 4.1.0'
 
